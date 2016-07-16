@@ -1,0 +1,11 @@
+/.application.conf.un~
+/ApplicationTest.class
+/IntegrationTest$1.class
+/IntegrationTest.class
+/application.conf
+/controllers/
+/evolutions/
+/logback.xml
+/models/
+/routes
+/views/

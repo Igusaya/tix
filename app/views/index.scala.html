@@ -1,0 +1,28 @@
+@(msg: String)
+
+@main("tix") {
+
+	<article>
+		<h1>tix</h1>
+		<p>@msg</p>
+	@*	
+		@helper.form(action = routes.Application.send){
+			@(helper.inputText(
+				field = form1("mail"),
+				args = 'size -> 30,
+					   '_label -> "E-MAIL",
+					   '_showConstraints -> false
+			))
+			@(helper.inputText(
+				field = form1("pass"),
+				 args = 'size -> 30
+				 	  , '_label -> "PASS"
+				 	  , '_showConstraints -> false
+			))
+			
+			<input type="submit">
+		}
+		*@
+		<a href="@controllers.routes.Application.add_user()">ユーザー登録</a>
+	</article>
+}

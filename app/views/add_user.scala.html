@@ -1,0 +1,30 @@
+@(msg: String, datas: List[models.entity.TixUser], form1:Form[models.entity.TixUser])
+
+    @main("Sample Page") {
+        <article>
+
+            <h1>PlayFramework　学習用</h1>
+            <p>@msg</p>
+            
+            @helper.form(action = routes.Application.create_user){
+                @(helper.inputText (
+                    field = form1("name"),
+	                args  = 'size -> 30,
+						    '_label -> "Name",
+						    '_help -> "あなたの名前を入力して下さい。"
+                ))
+                @(helper.inputPassword (
+                    field = form1("pass"),
+	                args  = 'size -> 30,
+						    '_label -> "Pass",
+						    '_help -> "Pass設定"
+                ))
+                @(helper.inputText (
+                    field = form1("mail")
+                ))
+
+                <input type="submit">
+            }
+
+        </article>
+    }
