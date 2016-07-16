@@ -1,5 +1,5 @@
-New log file opened at Sat Jul 16 00:48:41 JST 2016 by 28637@igusayuusuke-no-MacBook-Pro.local
-jvm 28637@igusayuusuke-no-MacBook-Pro.local
+New log file opened at Sat Jul 16 23:35:19 JST 2016 by 30574@igusayuusuke-no-MacBook-Pro.local
+jvm 30574@igusayuusuke-no-MacBook-Pro.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/igusaya/develop/tix_prototype/project, returning: (tix_prototype-build)
 Loading project definition from /Users/igusaya/develop/tix_prototype/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@15fce63e, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@78b0a232, check cycles: false
 
 Initial source changes: 
 	removed:Set()

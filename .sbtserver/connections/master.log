@@ -1,37 +1,10 @@
-New log file opened at Sat Jul 16 00:48:41 JST 2016 by 28637@igusayuusuke-no-MacBook-Pro.local
-Taking next connection to: 52194
-New client attempting to connect on port: 52195-52194
-  Address = /192.168.1.35:52194
-This client on port 52195 has uuid 3105f454-81bd-4d5e-bacc-4ce412ca51c4 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-3105f454-81bd-4d5e-bacc-4ce412ca51c4
-Taking next connection to: 52194
+New log file opened at Sat Jul 16 23:35:19 JST 2016 by 30574@igusayuusuke-no-MacBook-Pro.local
+Taking next connection to: 56192
+New client attempting to connect on port: 56193-56192
+  Address = /192.168.1.35:56192
+This client on port 56193 has uuid b44f6315-addd-42a4-9ad5-e2f404e3fde0 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-b44f6315-addd-42a4-9ad5-e2f404e3fde0
+Taking next connection to: 56192
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 52194
+Taking next connection to: 56192

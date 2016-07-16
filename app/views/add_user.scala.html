@@ -1,4 +1,4 @@
-@(msg: String, datas: List[models.entity.TixUser], form1:Form[models.entity.TixUser])
+@(msg: String, form1:Form[models.forms.AddUser])
 
     @main("Sample Page") {
         <article>
@@ -6,7 +6,7 @@
             <h1>PlayFramework　学習用</h1>
             <p>@msg</p>
             
-            @helper.form(action = routes.Application.create_user){
+            @helper.form(action = routes.Application.createUser){
                 @(helper.inputText (
                     field = form1("name"),
 	                args  = 'size -> 30,
@@ -14,13 +14,19 @@
 						    '_help -> "あなたの名前を入力して下さい。"
                 ))
                 @(helper.inputPassword (
-                    field = form1("pass"),
+                    field = form1("pass1"),
+	                args  = 'size -> 30,
+						    '_label -> "Pass",
+						    '_help -> "Pass設定"
+                ))
+				@(helper.inputPassword (
+                    field = form1("pass2"),
 	                args  = 'size -> 30,
 						    '_label -> "Pass",
 						    '_help -> "Pass設定"
                 ))
                 @(helper.inputText (
-                    field = form1("mail")
+                    field = form1("email")
                 ))
 
                 <input type="submit">

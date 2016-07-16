@@ -4,28 +4,29 @@ import java.util.Date;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-
-import org.hibernate.validator.constraints.Email;
-
 import com.avaje.ebean.annotation.*;
 import play.data.validation.*;
+import play.data.validation.Constraints.Email;
 import play.data.validation.Constraints.Required;
-import com.avaje.ebean.Model;
+import com.avaje.ebean.Model; 
 
 @Entity
 public class TixUser extends Model {
     @Id    // PK設定
     public Long id;
+    
     @Constraints.Required    // not null制約
     public String name;
+    
     @Constraints.Required
     @Email
     public String mail;
+    
     @Constraints.Required
     public String pass;
     
     public String icon;
-    @CreatedTimestamp    // 作成日時のタイムスタンプ
+    @CreatedTimestamp
     public Date createdate;
     @UpdatedTimestamp
     public Date updatedate;
@@ -33,8 +34,18 @@ public class TixUser extends Model {
     // Finderクラスは検索機能を纏めたクラス。
     public final static Find<Long, TixUser> find =
             new Find<Long, TixUser>(){};
-            
-   
+   /**
+    * DBにインサートする項目を渡す
+    * @param name
+    * @param pass
+    * @param mail
+    */
+   public void setData(String name, String pass, String mail){
+	   this.name = name;
+	   this.pass = pass;
+	   this.mail = mail;
+   }
+// ----- getter, setter -----
 	public Long getId() {
 		return id;
 	}
