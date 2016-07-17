@@ -1,0 +1,19 @@
+@(form: play.data.Form[models.forms.Login])
+@main("tix") {
+
+	<article>
+		<h1>tix</h1>
+		@helper.form(action = routes.Application.authenticate()){		
+			@helper.CSRF.formField
+			@if(form.hasGlobalErrors){
+				<p class="error">@form.globalError.message</p>
+			}
+			<div class="login">
+			<p><input type="text" name="mail" placeholder="Mail" value="@form("mail").value"></p>
+			<p><input type="password" name="pass" placeholder="Pass"></p>
+			<p><button type="submit">Login</button></p>
+			</div>
+		}
+		<a href="@controllers.routes.Application.addUser()">ユーザー登録</a>
+	</article>
+}
