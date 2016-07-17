@@ -9,3 +9,5 @@
 /models/
 /routes
 /views/
+/utils/
+/Global.class

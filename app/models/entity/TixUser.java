@@ -1,13 +1,11 @@
 package models.entity;
 
 import java.util.Date;
-import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import com.avaje.ebean.annotation.*;
 import play.data.validation.*;
 import play.data.validation.Constraints.Email;
-import play.data.validation.Constraints.Required;
 import com.avaje.ebean.Model; 
 
 @Entity

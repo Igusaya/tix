@@ -6,7 +6,9 @@
             <h1>PlayFramework　学習用</h1>
             <p>@msg</p>
             
-            @helper.form(action = routes.Application.createUser){
+            @helper.form(action = routes.Application.createUser){		
+				@helper.CSRF.formField
+			
                 @(helper.inputText (
                     field = form1("name"),
 	                args  = 'size -> 30,
