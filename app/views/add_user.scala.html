@@ -11,23 +11,24 @@
                 @(helper.inputText (
                     field = form1("name"),
 	                args  = 'size -> 30,
-						    '_label -> "Name",
-						    '_help -> "あなたの名前を入力して下さい。"
+						    '_label -> "名前",
+						    '_help -> "※登録後変更できます"
                 ))
                 @(helper.inputPassword (
                     field = form1("pass1"),
 	                args  = 'size -> 30,
-						    '_label -> "Pass",
-						    '_help -> "Pass設定"
+						    '_label -> "パスワード"
                 ))
 				@(helper.inputPassword (
                     field = form1("pass2"),
 	                args  = 'size -> 30,
-						    '_label -> "Pass",
-						    '_help -> "Pass設定"
+						    '_label -> "パスワード(確認)"
                 ))
                 @(helper.inputText (
-                    field = form1("email")
+                    field = form1("email"),
+	                args  = 'size -> 30,
+						    '_label -> "Eメール",
+						    '_help -> "ログインに使用します"
                 ))
 
                 <input type="submit">

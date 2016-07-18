@@ -14,7 +14,9 @@ libraryDependencies ++= Seq(
   "org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
   javaJpa,
   "org.hibernate" % "hibernate-entitymanager" % "4.3.9.Final",
-  filters
+  filters,
+  "org.webjars" %% "webjars-play" % "2.4.0",
+  "org.webjars" % "bootstrap" % "3.2.0"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the

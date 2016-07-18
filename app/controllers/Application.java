@@ -23,7 +23,7 @@ public class Application extends Controller {
 	 */
 	@play.mvc.Security.Authenticated(models.securitys.Secured.class)
 	public Result index(){
-		Logger.info("index");
+		Logger.debug("index");
 		Find<Long, TixUser> find = new Find<Long, TixUser>(){};
 		
 		// セッションからIdを取得し、そこからユーザー名を取得する。

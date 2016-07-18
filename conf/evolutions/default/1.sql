@@ -4,7 +4,7 @@
 # --- !Ups
 
 create table tix_user (
-  id                        bigint not null,
+  id                        bigserial not null,
   name                      varchar(255),
   mail                      varchar(255),
   pass                      varchar(255),
@@ -14,18 +14,10 @@ create table tix_user (
   constraint pk_tix_user primary key (id))
 ;
 
-create sequence tix_user_seq;
-
 
 
 
 # --- !Downs
 
-SET REFERENTIAL_INTEGRITY FALSE;
-
-drop table if exists tix_user;
-
-SET REFERENTIAL_INTEGRITY TRUE;
-
-drop sequence if exists tix_user_seq;
+drop table if exists tix_user cascade;
 
