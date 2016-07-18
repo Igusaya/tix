@@ -1,10 +1,9 @@
-@(msg: String, form1:Form[models.forms.AddUser])
+@(form1:Form[models.forms.AddUser])
 
     @main("Sample Page") {
         <article>
 
             <h1>PlayFramework　学習用</h1>
-            <p>@msg</p>
             
             @helper.form(action = routes.Application.createUser){		
 				@helper.CSRF.formField

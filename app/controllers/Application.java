@@ -41,7 +41,7 @@ public class Application extends Controller {
 	 */
 	public Result addUser(){
         Form<AddUser> f = new Form<AddUser>(AddUser.class);
-		return ok(add_user.render("D", f));			
+		return ok(add_user.render(f));			
 	}
 	
 	/**
@@ -64,7 +64,7 @@ public class Application extends Controller {
         	
     		return ok(index.render(inputData.getName()));
         }else{
-        	return badRequest(add_user.render("ERROR", f));
+        	return badRequest(add_user.render(f));
         }
 	}
 	

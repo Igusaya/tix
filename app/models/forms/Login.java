@@ -4,7 +4,10 @@ import java.security.NoSuchAlgorithmException;
 
 import models.entity.TixUser;
 import play.data.validation.*;
+import play.mvc.Security;
+
 import com.avaje.ebean.Model.Find;
+import utils.*;
 
 /**
  * ログインフォーム用のメンバを持つクラス
@@ -44,24 +47,11 @@ public class Login {
 		Find<Long, TixUser> find = new Find<Long, TixUser>(){};
 		String hashedPass = "";
 		if (pass != null)
-			hashedPass = sha512(pass);
+			hashedPass = UtilSecurity.sha512(pass);
 		return find.where()
 				.eq("mail", mail)
 				.eq("pass", hashedPass)
 				.findUnique();
-	}
-	
-	public static String sha512(String message)
-			throws java.security.NoSuchAlgorithmException{
-		java.security.MessageDigest md = java.security.MessageDigest.getInstance("SHA-512");
-		StringBuilder sb = new StringBuilder();
-		md.update(message.getBytes());
-		byte[] mb = md.digest();
-		for (byte m : mb){
-			String hex = String.format("%02x", m);
-			sb.append(hex);
-		}
-		return sb.toString();
 	}
 
 	// ----- getter setter -----

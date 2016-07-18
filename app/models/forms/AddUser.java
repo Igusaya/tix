@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import play.data.validation.Constraints.*;
+import utils.UtilSecurity;
 import play.data.validation.*;
 /**
  * ユーザー登録フォーム用クラス
@@ -36,31 +37,13 @@ public class AddUser {
 	}
 	
 	/**
-	 * ハッシュ化
-	 * @param
-	 * @return ハッシュ化した文字列
-	 * @throws java.security.NoSuchAlgorithmException
-	 */
-	public static String sha512(String s) throws java.security.NoSuchAlgorithmException {
-		java.security.MessageDigest md = java.security.MessageDigest.getInstance("SHA-512");
-		StringBuilder sb = new StringBuilder();
-		md.update(s.getBytes());
-		byte[] mb = md.digest();
-		for (byte m : mb){
-			String hex = String.format("%02x", m);
-			sb.append(hex);
-		}
-		return sb.toString();
-	}
-	
-	/**
 	 * フォームに入力されたPassを
 	 * ハッシュ化した状態で渡す
 	 * @return ハッシュ化したPass
 	 */
 	public String getPass() {
 		try {
-			return sha512(this.pass1);
+			return UtilSecurity.sha512(this.pass1);
 		} catch (NoSuchAlgorithmException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
