@@ -10,13 +10,12 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-//https://mvnrepository.com/artifact/org.postgresql/postgresql
-  "org.postgresql" % "postgresql" % "9.4-1201-jdbc41",
   javaJpa,
-  "org.hibernate" % "hibernate-entitymanager" % "4.3.9.Final",
   filters,
-  "org.webjars" %% "webjars-play" % "2.4.0",
-  "org.webjars" % "bootstrap" % "3.2.0"
+  "org.postgresql"  % "postgresql"              % "9.4-1201-jdbc41",
+  "org.hibernate"   % "hibernate-entitymanager" % "4.3.9.Final",
+  "org.webjars"    %% "webjars-play"            % "2.4.0",
+  "org.webjars"     % "bootstrap"               % "3.3.4"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
@@ -30,3 +29,8 @@ fork in run := true
 EclipseKeys.preTasks := Seq(compile in Compile)
 EclipseKeys.projectFlavor := EclipseProjectFlavor.Java           // Java project. Don't expect Scala IDE
 EclipseKeys.createSrc := EclipseCreateSrc.ValueSet(EclipseCreateSrc.ManagedClasses, EclipseCreateSrc.ManagedResources)  // Use .class files instead of generated .scala files for views and routes
+
+
+// add
+includeFilter in (Assets, LessKeys.less) := "*.less"
+excludeFilter in (Assets, LessKeys.less) := "_*.less"

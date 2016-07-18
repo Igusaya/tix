@@ -1,12 +1,12 @@
-New log file opened at Mon Jul 18 22:03:12 JST 2016 by 38559@igusayuusuke-no-MacBook-Pro.local
-jvm 38559@igusayuusuke-no-MacBook-Pro.local
+New log file opened at Tue Jul 19 02:08:14 JST 2016 by 40167@igusayuusuke-no-MacBook-Pro.local
+jvm 40167@igusayuusuke-no-MacBook-Pro.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
 Starting event engine
 Starting sbt command engine
-Waiting for sbt command engine
 Command engine arguments=List()
+Waiting for sbt command engine
 Command engine baseDirectory=/Users/igusaya/develop/tix_prototype
 Command engine initial remaining commands List(--initialize, onFailure load-failed, boot, server-send-ready-for-request, server-handle-next-server-request)
 > --initialize
@@ -67,10 +67,3 @@ Set current project to tix_prototype (in build file:/Users/igusaya/develop/tix_p
 > iflast shell
 > server-send-ready-for-request
 > server-handle-next-server-request
-Done executing sbt server engine, result Right(Exit(0))
-Closing listening server socket
-Waiting for socket thread
-Waiting for request processor thread
-Waiting for command engine result
-Returning control to sbt launcher with result Exit(0)
-Closing the 38559@igusayuusuke-no-MacBook-Pro.local logs at Mon Jul 18 23:52:44 JST 2016, goodbye.

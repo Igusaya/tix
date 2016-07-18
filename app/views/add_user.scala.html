@@ -17,12 +17,14 @@
                 @(helper.inputPassword (
                     field = form1("pass1"),
 	                args  = 'size -> 30,
-						    '_label -> "パスワード"
+						    '_label -> "パスワード",
+						    '_help -> ""
                 ))
 				@(helper.inputPassword (
                     field = form1("pass2"),
 	                args  = 'size -> 30,
-						    '_label -> "パスワード(確認)"
+						    '_label -> "パスワード(確認)",
+						    '_help -> ""
                 ))
                 @(helper.inputText (
                     field = form1("email"),

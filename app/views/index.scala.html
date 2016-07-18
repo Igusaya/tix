@@ -1,10 +1,11 @@
 @(user: String)
 
 @main("tix") {
-
-	<article>
+	<div class="col-md-4"></div>
+    <div class="col-md-4">
 		<h1>tix</h1>
 		<p>@user</p>
 		<a href="@controllers.routes.Application.logout()">ログアウト</a>
-	</article>
+	</div>
+    <div class="col-md-4"></div>
 }

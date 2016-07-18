@@ -1,5 +1,5 @@
-New log file opened at Mon Jul 18 21:22:10 JST 2016 by 38338@igusayuusuke-no-MacBook-Pro.local
-jvm 38338@igusayuusuke-no-MacBook-Pro.local
+New log file opened at Tue Jul 19 02:03:40 JST 2016 by 40095@igusayuusuke-no-MacBook-Pro.local
+jvm 40095@igusayuusuke-no-MacBook-Pro.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.60-b23
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/igusaya/develop/tix_prototype/project, returning: (tix_prototype-build)
 Loading project definition from /Users/igusaya/develop/tix_prototype/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@315eb356, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@78b0a232, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,7 +69,7 @@ Set current project to tix_prototype (in build file:/Users/igusaya/develop/tix_p
 > server-handle-next-server-request
 > {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@4a67c324, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@57059025, check cycles: false
 Read from stdout: Updating {file:/Users/igusaya/develop/tix_prototype/}root...
 Updating {file:/Users/igusaya/develop/tix_prototype/}root...
 Other repositories:
@@ -84,7 +84,7 @@ resolving dependencies for configuration 'compile'
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 Read from stdout: Resolving org.scala-lang#scala-library;2.11.6 ...
 Resolving org.scala-lang#scala-library;2.11.6 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2441ed22
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@29e56140
 sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -313,7 +313,7 @@ downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-co
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.pom
-	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.pom(pom.original) (483ms)
+	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-core;2.5.3!jackson-core.pom(pom.original) (480ms)
 Read from stdout: Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
@@ -338,7 +338,7 @@ downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-an
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.3/jackson-annotations-2.5.3.pom
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.3/jackson-annotations-2.5.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.3/jackson-annotations-2.5.3.pom
-	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.3!jackson-annotations.pom(pom.original) (488ms)
+	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-annotations;2.5.3!jackson-annotations.pom(pom.original) (473ms)
 Read from stdout: Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
@@ -363,7 +363,7 @@ downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-da
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.3/jackson-databind-2.5.3.pom
-	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.pom(pom.original) (469ms)
+	[SUCCESSFUL ] com.fasterxml.jackson.core#jackson-databind;2.5.3!jackson-databind.pom(pom.original) (467ms)
 Read from stdout: Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
@@ -394,7 +394,7 @@ downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackso
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.3/jackson-datatype-jdk8-2.5.3.pom
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.3/jackson-datatype-jdk8-2.5.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.5.3/jackson-datatype-jdk8-2.5.3.pom
-	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3!jackson-datatype-jdk8.pom(pom.original) (468ms)
+	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.5.3!jackson-datatype-jdk8.pom(pom.original) (611ms)
 Read from stdout: Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
@@ -423,7 +423,7 @@ downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackso
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.3/jackson-datatype-jsr310-2.5.3.pom
 	public: downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.3/jackson-datatype-jsr310-2.5.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.5.3/jackson-datatype-jsr310-2.5.3.pom
-	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3!jackson-datatype-jsr310.pom(pom.original) (467ms)
+	[SUCCESSFUL ] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.5.3!jackson-datatype-jsr310.pom(pom.original) (463ms)
 Read from stdout: Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 Resolving com.fasterxml.jackson#jackson-parent;2.5.1 ...
 sbt-chain: Checking cache for: dependency: com.fasterxml.jackson#jackson-parent;2.5.1 {}
@@ -466,7 +466,7 @@ downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.pom
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.12/jul-to-slf4j-1.7.12.pom
-	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.12!jul-to-slf4j.pom(pom.original) (469ms)
+	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.12!jul-to-slf4j.pom(pom.original) (466ms)
 Read from stdout: Resolving org.slf4j#slf4j-parent;1.7.12 ...
 Resolving org.slf4j#slf4j-parent;1.7.12 ...
 sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.12 {}
@@ -493,7 +493,7 @@ downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-o
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.pom
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.pom
-	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.12!jcl-over-slf4j.pom(pom.original) (472ms)
+	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.12!jcl-over-slf4j.pom(pom.original) (782ms)
 Read from stdout: Resolving org.slf4j#slf4j-parent;1.7.12 ...
 Resolving org.slf4j#slf4j-parent;1.7.12 ...
 sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.12 {}
@@ -1125,7 +1125,7 @@ downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.21/jul-to-
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.pom
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.21/jul-to-slf4j-1.7.21.pom
-	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.21!jul-to-slf4j.pom(pom.original) (467ms)
+	[SUCCESSFUL ] org.slf4j#jul-to-slf4j;1.7.21!jul-to-slf4j.pom(pom.original) (475ms)
 Read from stdout: Resolving org.slf4j#slf4j-parent;1.7.21 ...
 Resolving org.slf4j#slf4j-parent;1.7.21 ...
 sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.21 {}
@@ -1154,7 +1154,7 @@ downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.21/jcl-o
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.pom
 	public: downloading https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.pom
-	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.21!jcl-over-slf4j.pom(pom.original) (473ms)
+	[SUCCESSFUL ] org.slf4j#jcl-over-slf4j;1.7.21!jcl-over-slf4j.pom(pom.original) (464ms)
 Read from stdout: Resolving org.slf4j#slf4j-parent;1.7.21 ...
 Resolving org.slf4j#slf4j-parent;1.7.21 ...
 sbt-chain: Checking cache for: dependency: org.slf4j#slf4j-parent;1.7.21 {}
@@ -1950,15 +1950,6 @@ sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.8 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
-Read from stdout: Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
-Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
-sbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
-sbt-chain: module revision found in cache: org.postgresql#postgresql;9.4-1201-jdbc41
-	found org.postgresql#postgresql;9.4-1201-jdbc41 in sbt-chain
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->default(compile)]
 Read from stdout: Resolving com.typesafe.play#play-java-jpa_2.11;2.4.8 ...
 Resolving com.typesafe.play#play-java-jpa_2.11;2.4.8 ...
@@ -1987,6 +1978,32 @@ sbt-chain: module revision found in cache: org.hibernate.javax.persistence#hiber
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
+Read from stdout: Resolving com.typesafe.play#filters-helpers_2.11;2.4.8 ...
+Resolving com.typesafe.play#filters-helpers_2.11;2.4.8 ...
+sbt-chain: Checking cache for: dependency: com.typesafe.play#filters-helpers_2.11;2.4.8 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: com.typesafe.play#filters-helpers_2.11;2.4.8
+	found com.typesafe.play#filters-helpers_2.11;2.4.8 in sbt-chain
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+Read from stdout: Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+sbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: org.postgresql#postgresql;9.4-1201-jdbc41
+	found org.postgresql#postgresql;9.4-1201-jdbc41 in sbt-chain
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->default(compile)]
 Read from stdout: Resolving org.hibernate#hibernate-entitymanager;4.3.9.Final ...
 Resolving org.hibernate#hibernate-entitymanager;4.3.9.Final ...
@@ -2139,23 +2156,6 @@ sbt-chain: module revision found in cache: org.jboss#jandex;1.1.0.Final
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)]
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
-Read from stdout: Resolving com.typesafe.play#filters-helpers_2.11;2.4.8 ...
-Resolving com.typesafe.play#filters-helpers_2.11;2.4.8 ...
-sbt-chain: Checking cache for: dependency: com.typesafe.play#filters-helpers_2.11;2.4.8 {compile=[default(compile)]}
-sbt-chain: module revision found in cache: com.typesafe.play#filters-helpers_2.11;2.4.8
-	found com.typesafe.play#filters-helpers_2.11;2.4.8 in sbt-chain
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->default(compile)]
 Read from stdout: Resolving org.webjars#webjars-play_2.11;2.4.0 ...
 Resolving org.webjars#webjars-play_2.11;2.4.0 ...
@@ -2214,26 +2214,26 @@ sbt-chain: module revision found in cache: org.webjars#webjars-locator-core;0.22
 == resolving dependencies org.webjars#webjars-play_2.11;2.4.0->org.webjars#webjars-locator;0.23 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-play_2.11;2.4.0->org.webjars#webjars-locator;0.23 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
-Read from stdout: Resolving org.webjars#bootstrap;3.2.0 ...
-Resolving org.webjars#bootstrap;3.2.0 ...
-sbt-chain: Checking cache for: dependency: org.webjars#bootstrap;3.2.0 {compile=[default(compile)]}
-sbt-chain: module revision found in cache: org.webjars#bootstrap;3.2.0
-	found org.webjars#bootstrap;3.2.0 in sbt-chain
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->master(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->default(compile)]
+Read from stdout: Resolving org.webjars#bootstrap;3.3.4 ...
+Resolving org.webjars#bootstrap;3.3.4 ...
+sbt-chain: Checking cache for: dependency: org.webjars#bootstrap;3.3.4 {compile=[default(compile)]}
+sbt-chain: module revision found in cache: org.webjars#bootstrap;3.3.4
+	found org.webjars#bootstrap;3.3.4 in sbt-chain
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->master(compile)]
 Read from stdout: Resolving org.webjars#jquery;1.11.1 ...
 Resolving org.webjars#jquery;1.11.1 ...
 sbt-chain: Checking cache for: dependency: org.webjars#jquery;1.11.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 sbt-chain: module revision found in cache: org.webjars#jquery;1.11.1
 	found org.webjars#jquery;1.11.1 in sbt-chain
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->master]
 resolving dependencies for configuration 'runtime'
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [runtime]
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [compile]
@@ -3047,10 +3047,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.8 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->compile]
@@ -3067,6 +3063,22 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->compile]
@@ -3169,18 +3181,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)]
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->compile]
@@ -3215,14 +3215,14 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->master(compile)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->master(compile)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->master]
 resolving dependencies for configuration 'test'
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [test]
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [runtime]
@@ -4037,10 +4037,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.8 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->compile]
@@ -4057,6 +4053,22 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->compile]
@@ -4159,18 +4171,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)]
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->compile]
@@ -4205,14 +4205,14 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->master(compile)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->master(compile)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.8 [test->default(compile)]
 Read from stdout: Resolving com.typesafe.play#play-test_2.11;2.4.8 ...
 Resolving com.typesafe.play#play-test_2.11;2.4.8 ...
@@ -4380,7 +4380,7 @@ downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.4/httpclient-4.3.4.pom
-	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.3.4!httpclient.pom(pom.original) (471ms)
+	[SUCCESSFUL ] org.apache.httpcomponents#httpclient;4.3.4!httpclient.pom(pom.original) (461ms)
 Read from stdout: Resolving org.apache.httpcomponents#httpcomponents-client;4.3.4 ...
 Resolving org.apache.httpcomponents#httpcomponents-client;4.3.4 ...
 sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.3.4 {}
@@ -4396,7 +4396,7 @@ downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcompone
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.4/httpcomponents-client-4.3.4.pom
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.4/httpcomponents-client-4.3.4.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.4/httpcomponents-client-4.3.4.pom
-	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.3.4!httpcomponents-client.pom(pom.original) (582ms)
+	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.3.4!httpcomponents-client.pom(pom.original) (690ms)
 Read from stdout: Resolving org.apache.httpcomponents#project;7 ...
 Resolving org.apache.httpcomponents#project;7 ...
 sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;7 {}
@@ -4460,7 +4460,7 @@ downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3.2/httpcore-4.3.2.pom
-	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.3.2!httpcore.pom(pom.original) (469ms)
+	[SUCCESSFUL ] org.apache.httpcomponents#httpcore;4.3.2!httpcore.pom(pom.original) (463ms)
 Read from stdout: Resolving org.apache.httpcomponents#httpcomponents-core;4.3.2 ...
 Resolving org.apache.httpcomponents#httpcomponents-core;4.3.2 ...
 sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-core;4.3.2 {}
@@ -4476,7 +4476,7 @@ downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcompone
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-core/4.3.2/httpcomponents-core-4.3.2.pom
-	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.3.2!httpcomponents-core.pom(pom.original) (471ms)
+	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-core;4.3.2!httpcomponents-core.pom(pom.original) (578ms)
 Read from stdout: Resolving org.apache.httpcomponents#project;7 ...
 Resolving org.apache.httpcomponents#project;7 ...
 sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;7 {}
@@ -4757,7 +4757,7 @@ downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.pom
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpmime/4.3.3/httpmime-4.3.3.pom
-	[SUCCESSFUL ] org.apache.httpcomponents#httpmime;4.3.3!httpmime.pom(pom.original) (465ms)
+	[SUCCESSFUL ] org.apache.httpcomponents#httpmime;4.3.3!httpmime.pom(pom.original) (460ms)
 Read from stdout: Resolving org.apache.httpcomponents#httpcomponents-client;4.3.3 ...
 Resolving org.apache.httpcomponents#httpcomponents-client;4.3.3 ...
 sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpcomponents-client;4.3.3 {}
@@ -4773,7 +4773,7 @@ downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcompone
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom
 	public: downloading https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/org/apache/httpcomponents/httpcomponents-client/4.3.3/httpcomponents-client-4.3.3.pom
-	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.3.3!httpcomponents-client.pom(pom.original) (479ms)
+	[SUCCESSFUL ] org.apache.httpcomponents#httpcomponents-client;4.3.3!httpcomponents-client.pom(pom.original) (576ms)
 Read from stdout: Resolving org.apache.httpcomponents#project;7 ...
 Resolving org.apache.httpcomponents#project;7 ...
 sbt-chain: Checking cache for: dependency: org.apache.httpcomponents#project;7 {}
@@ -6076,10 +6076,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.8 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->compile]
@@ -6096,6 +6092,22 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->compile]
@@ -6198,18 +6210,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)]
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->compile]
@@ -6244,14 +6244,14 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->master(compile)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->master(compile)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->master]
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [optional]
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [provided]
 resolving dependencies for configuration 'runtime-internal'
@@ -7068,10 +7068,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.8 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->compile]
@@ -7088,6 +7084,22 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->compile]
@@ -7190,18 +7202,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)]
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->compile]
@@ -7236,14 +7236,14 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->master(compile)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->master(compile)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->master]
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [optional]
 resolving dependencies for configuration 'test-internal'
 == resolving dependencies for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT [test-internal]
@@ -8060,10 +8060,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.8->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.8 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->compile]
@@ -8080,6 +8076,22 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-jpa_2.11;2.4.8->org.hibernate.javax.persistence#hibernate-jpa-2.1-api;1.0.0.Final [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-jpa_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
+== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->compile]
@@ -8182,18 +8194,6 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->runtime(*)]
 == resolving dependencies org.hibernate#hibernate-entitymanager;4.3.9.Final->org.javassist#javassist;3.19.0-GA [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.hibernate#hibernate-entitymanager;4.3.9.Final [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->master(compile)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [compile->compile(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->org.scala-lang#scala-library;2.11.6 [runtime->compile]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->runtime(*)]
-== resolving dependencies com.typesafe.play#filters-helpers_2.11;2.4.8->com.typesafe.play#play_2.11;2.4.8 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#filters-helpers_2.11;2.4.8 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->compile]
@@ -8228,14 +8228,14 @@ excluding dependency: com.google.code.findbugs#annotations;2.0.1 {compile=[compi
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-locator-core;0.22->org.slf4j#slf4j-api;1.7.21 [runtime->compile]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#webjars-play_2.11;2.4.0 [compile->master]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->default(compile)]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->runtime]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->compile]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->master(compile)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [compile->compile(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
-== resolving dependencies org.webjars#bootstrap;3.2.0->org.webjars#jquery;1.11.1 [runtime->compile]
-== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.2.0 [compile->master]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->default(compile)]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->runtime]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->compile]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->master(compile)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [compile->compile(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->runtime(*)]
+== resolving dependencies org.webjars#bootstrap;3.3.4->org.webjars#jquery;1.11.1 [runtime->compile]
+== resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->org.webjars#bootstrap;3.3.4 [compile->master]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.8 [test->default(compile)]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.8 [test->runtime]
 == resolving dependencies tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.8 [test->compile]
@@ -9986,12 +9986,12 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.4.8!play-java-jdbc_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.4.8!play-cache_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.4.8!play-java-ws_2.11.jar
-	[NOT REQUIRED] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar
 	[NOT REQUIRED] com.typesafe.play#play-java-jpa_2.11;2.4.8!play-java-jpa_2.11.jar
-	[NOT REQUIRED] org.hibernate#hibernate-entitymanager;4.3.9.Final!hibernate-entitymanager.jar
 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.11;2.4.8!filters-helpers_2.11.jar
+	[NOT REQUIRED] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar
+	[NOT REQUIRED] org.hibernate#hibernate-entitymanager;4.3.9.Final!hibernate-entitymanager.jar
 	[NOT REQUIRED] org.webjars#webjars-play_2.11;2.4.0!webjars-play_2.11.jar
-	[NOT REQUIRED] org.webjars#bootstrap;3.2.0!bootstrap.jar
+	[NOT REQUIRED] org.webjars#bootstrap;3.3.4!bootstrap.jar
 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.4.0!play-jdbc-evolutions_2.11.jar
@@ -10155,7 +10155,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-:: resolution report :: resolve 22464ms :: artifacts dl 150ms
+:: resolution report :: resolve 22597ms :: artifacts dl 246ms
 	report for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT compile produced in /Users/igusaya/develop/tix_prototype/target/resolution-cache/reports/tix_prototype-tix_prototype_2.11-compile.xml
 	report for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT runtime produced in /Users/igusaya/develop/tix_prototype/target/resolution-cache/reports/tix_prototype-tix_prototype_2.11-runtime.xml
 	report for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT test produced in /Users/igusaya/develop/tix_prototype/target/resolution-cache/reports/tix_prototype-tix_prototype_2.11-test.xml
@@ -10170,63 +10170,40 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	report for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT pom produced in /Users/igusaya/develop/tix_prototype/target/resolution-cache/reports/tix_prototype-tix_prototype_2.11-pom.xml
 	report for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT scala-tool produced in /Users/igusaya/develop/tix_prototype/target/resolution-cache/reports/tix_prototype-tix_prototype_2.11-scala-tool.xml
 	report for tix_prototype#tix_prototype_2.11;1.0-SNAPSHOT fork-run produced in /Users/igusaya/develop/tix_prototype/target/resolution-cache/reports/tix_prototype-tix_prototype_2.11-fork-run.xml
-	resolve done (22464ms resolve - 150ms download)
+	resolve done (22597ms resolve - 246ms download)
 Read from stdout: Done updating.
 Done updating.
-Total time: 24 s, completed 2016/07/18 22:00:31
+Total time: 24 s, completed 2016/07/19 2:05:32
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9000
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@5fa28cdf, check cycles: false
-Total time: 0 s, completed 2016/07/18 22:00:33
+Running task... Cancel: sbt.server.ServerTaskCancellation@5d0aeb6b, check cycles: false
+Total time: 0 s, completed 2016/07/19 2:05:34
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@72535045, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@67f565b2, check cycles: false
 Warning: node.js detection failed, sbt will use the Rhino based Trireme JavaScript engine instead to run JavaScript assets compilation, which in some cases may be orders of magnitude slower than using node.js.
+Read from stdout: LESS compiling on 1 source(s)
+LESS compiling on 1 source(s)
 
 Initial source changes: 
 	removed:Set()
 	added: Set()
-	modified: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
+	modified: Set()
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
+Initial directly invalidated sources: Set()
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
+All initially invalidated sources: Set()
 
-Read from stdout: Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 14e7c4c2, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/igusaya/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/Users/igusaya/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/igusaya/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/igusaya/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/igusaya/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/igusaya/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/igusaya/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/igusaya/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/igusaya/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/igusaya/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/igusaya/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/Users/igusaya/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/Users/igusaya/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/Users/igusaya/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/Users/igusaya/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/Users/igusaya/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/Users/igusaya/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.3.jar:/Users/igusaya/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/igusaya/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/Users/igusaya/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.36.jar:/Users/igusaya/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/igusaya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging-annotations/jars/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar:/Users/igusaya/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.5.Final.jar:/Users/igusaya/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/Users/igusaya/.ivy2/cache/org.jboss/jandex/jars/jandex-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.15.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.23.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator-core/jars/webjars-locator-core-0.22.jar:/Users/igusaya/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.2.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar
-Scala compilation took 5.532786222 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
 Copy resource mappings: 
 	(/Users/igusaya/develop/tix_prototype/conf/application.conf,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/application.conf)
 	(/Users/igusaya/develop/tix_prototype/conf/evolutions,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/evolutions)
@@ -10234,265 +10211,7 @@ Copy resource mappings:
 	(/Users/igusaya/develop/tix_prototype/conf/routes,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/routes)
 	(/Users/igusaya/develop/tix_prototype/conf/evolutions/default,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/evolutions/default)
 	(/Users/igusaya/develop/tix_prototype/conf/evolutions/default/1.sql,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 8 s, completed 2016/07/18 22:01:18
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@4e7ef6d1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Read from stdout: Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 301c70a8, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/igusaya/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/Users/igusaya/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/igusaya/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/igusaya/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/igusaya/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/igusaya/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/igusaya/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/igusaya/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/igusaya/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/igusaya/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/igusaya/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/Users/igusaya/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/Users/igusaya/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/Users/igusaya/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/Users/igusaya/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/Users/igusaya/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/Users/igusaya/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.3.jar:/Users/igusaya/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/igusaya/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/Users/igusaya/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.36.jar:/Users/igusaya/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/igusaya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging-annotations/jars/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar:/Users/igusaya/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.5.Final.jar:/Users/igusaya/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/Users/igusaya/.ivy2/cache/org.jboss/jandex/jars/jandex-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.15.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.23.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator-core/jars/webjars-locator-core-0.22.jar:/Users/igusaya/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.2.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar
-Read from stdout: /Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-Read from stdout: possible cause: maybe a semicolon is missing before `value args'?
-/Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-possible cause: maybe a semicolon is missing before `value args'?
-Read from stdout: 	                args  = 'size -> 30,
-	                args  = 'size -> 30,
-Read from stdout: 	                ^
-	                ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Total time: 3 s, completed 2016/07/18 22:01:27
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@688229d5, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Read from stdout: Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 639c95e, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/igusaya/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/Users/igusaya/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/igusaya/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/igusaya/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/igusaya/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/igusaya/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/igusaya/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/igusaya/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/igusaya/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/igusaya/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/igusaya/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/Users/igusaya/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/Users/igusaya/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/Users/igusaya/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/Users/igusaya/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/Users/igusaya/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/Users/igusaya/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.3.jar:/Users/igusaya/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/igusaya/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/Users/igusaya/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.36.jar:/Users/igusaya/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/igusaya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging-annotations/jars/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar:/Users/igusaya/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.5.Final.jar:/Users/igusaya/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/Users/igusaya/.ivy2/cache/org.jboss/jandex/jars/jandex-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.15.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.23.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator-core/jars/webjars-locator-core-0.22.jar:/Users/igusaya/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.2.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar
-Read from stdout: /Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-Read from stdout: possible cause: maybe a semicolon is missing before `value args'?
-/Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-possible cause: maybe a semicolon is missing before `value args'?
-Read from stdout: 	                args  = 'size -> 30,
-	                args  = 'size -> 30,
-Read from stdout: 	                ^
-	                ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Total time: 2 s, completed 2016/07/18 22:01:30
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@3abedd3d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Read from stdout: Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 49f0aae4, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/igusaya/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/Users/igusaya/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/igusaya/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/igusaya/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/igusaya/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/igusaya/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/igusaya/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/igusaya/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/igusaya/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/igusaya/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/igusaya/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/Users/igusaya/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/Users/igusaya/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/Users/igusaya/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/Users/igusaya/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/Users/igusaya/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/Users/igusaya/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.3.jar:/Users/igusaya/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/igusaya/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/Users/igusaya/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.36.jar:/Users/igusaya/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/igusaya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging-annotations/jars/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar:/Users/igusaya/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.5.Final.jar:/Users/igusaya/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/Users/igusaya/.ivy2/cache/org.jboss/jandex/jars/jandex-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.15.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.23.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator-core/jars/webjars-locator-core-0.22.jar:/Users/igusaya/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.2.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar
-Read from stdout: /Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-Read from stdout: possible cause: maybe a semicolon is missing before `value args'?
-/Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-possible cause: maybe a semicolon is missing before `value args'?
-Read from stdout: 	                args  = 'size -> 30,
-	                args  = 'size -> 30,
-Read from stdout: 	                ^
-	                ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Total time: 1 s, completed 2016/07/18 22:01:41
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@fb0bc93, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Read from stdout: Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 24fa1b04, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/igusaya/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/Users/igusaya/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/igusaya/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/igusaya/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/igusaya/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/igusaya/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/igusaya/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/igusaya/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/igusaya/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/igusaya/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/igusaya/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/Users/igusaya/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/Users/igusaya/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/Users/igusaya/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/Users/igusaya/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/Users/igusaya/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/Users/igusaya/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.3.jar:/Users/igusaya/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/igusaya/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/Users/igusaya/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.36.jar:/Users/igusaya/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/igusaya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging-annotations/jars/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar:/Users/igusaya/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.5.Final.jar:/Users/igusaya/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/Users/igusaya/.ivy2/cache/org.jboss/jandex/jars/jandex-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.15.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.23.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator-core/jars/webjars-locator-core-0.22.jar:/Users/igusaya/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.2.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar
-Read from stdout: /Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-Read from stdout: possible cause: maybe a semicolon is missing before `value args'?
-/Users/igusaya/develop/tix_prototype/app/views/add_user.scala.html:29: value args is not a member of play.data.Form.Field
-possible cause: maybe a semicolon is missing before `value args'?
-Read from stdout: 	                args  = 'size -> 30,
-	                args  = 'size -> 30,
-Read from stdout: 	                ^
-	                ^
-Read from stdout: one error found
-one error found
-Compilation failed (CompilerInterface)
-Total time: 1 s, completed 2016/07/18 22:01:44
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/igusaya/develop/tix_prototype/}root/*:playForkReload
-Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@2a5bbe1d, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set(/Users/igusaya/develop/tix_prototype/target/scala-2.11/twirl/main/views/html/add_user.template.scala)
-
-Read from stdout: Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Compiling 1 Scala source to /Users/igusaya/develop/tix_prototype/target/scala-2.11/classes...
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Getting compiler-interface from component compiler for Scala 2.11.6
-Other repositories:
-Default repositories:
-Running cached compiler 1c5f151a, interfacing (CompilerInterface) with Scala compiler version 2.11.6
-Calling Scala compiler with arguments  (CompilerInterface):
-	-deprecation
-	-unchecked
-	-encoding
-	utf8
-	-bootclasspath
-	/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/jre/classes:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar
-	-classpath
-	/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar:/Users/igusaya/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar:/Users/igusaya/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar:/Users/igusaya/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.21.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar:/Users/igusaya/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.13.jar:/Users/igusaya/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar:/Users/igusaya/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar:/Users/igusaya/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar:/Users/igusaya/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar:/Users/igusaya/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar:/Users/igusaya/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar:/Users/igusaya/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar:/Users/igusaya/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar:/Users/igusaya/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar:/Users/igusaya/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar:/Users/igusaya/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar:/Users/igusaya/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar:/Users/igusaya/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar:/Users/igusaya/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar:/Users/igusaya/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar:/Users/igusaya/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar:/Users/igusaya/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.3.jar:/Users/igusaya/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar:/Users/igusaya/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar:/Users/igusaya/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar:/Users/igusaya/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.36.jar:/Users/igusaya/.ivy2/cache/io.netty/netty/bundles/netty-3.10.5.Final.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar:/Users/igusaya/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar:/Users/igusaya/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar:/Users/igusaya/.ivy2/cache/org.postgresql/postgresql/jars/postgresql-9.4-1201-jdbc41.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/play-java-jpa_2.11/jars/play-java-jpa_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/jars/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-entitymanager/jars/hibernate-entitymanager-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.logging/jboss-logging-annotations/jars/jboss-logging-annotations-1.2.0.Beta1.jar:/Users/igusaya/.ivy2/cache/org.hibernate/hibernate-core/jars/hibernate-core-4.3.9.Final.jar:/Users/igusaya/.ivy2/cache/org.jboss.spec.javax.transaction/jboss-transaction-api_1.2_spec/jars/jboss-transaction-api_1.2_spec-1.0.0.Final.jar:/Users/igusaya/.ivy2/cache/dom4j/dom4j/jars/dom4j-1.6.1.jar:/Users/igusaya/.ivy2/cache/org.hibernate.common/hibernate-commons-annotations/jars/hibernate-commons-annotations-4.0.5.Final.jar:/Users/igusaya/.ivy2/cache/antlr/antlr/jars/antlr-2.7.7.jar:/Users/igusaya/.ivy2/cache/org.jboss/jandex/jars/jandex-1.1.0.Final.jar:/Users/igusaya/.ivy2/cache/com.typesafe.play/filters-helpers_2.11/jars/filters-helpers_2.11-2.4.8.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-play_2.11/jars/webjars-play_2.11-2.4.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/requirejs/jars/requirejs-2.1.15.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator/jars/webjars-locator-0.23.jar:/Users/igusaya/.ivy2/cache/org.webjars/webjars-locator-core/jars/webjars-locator-core-0.22.jar:/Users/igusaya/.ivy2/cache/org.webjars/bootstrap/jars/bootstrap-3.2.0.jar:/Users/igusaya/.ivy2/cache/org.webjars/jquery/jars/jquery-1.11.1.jar
-Scala compilation took 1.354642192 s
-New invalidations:
-	Set()
-Initial set of included nodes: Set()
-Previously invalidated, but (transitively) depend on new invalidations:
-	Set()
-All newly invalidated sources after taking into account (previously) recompiled sources:Set()
-Copy resource mappings: 
-	(/Users/igusaya/develop/tix_prototype/conf/application.conf,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/application.conf)
-	(/Users/igusaya/develop/tix_prototype/conf/evolutions,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/evolutions)
-	(/Users/igusaya/develop/tix_prototype/conf/logback.xml,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/logback.xml)
-	(/Users/igusaya/develop/tix_prototype/conf/routes,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/routes)
-	(/Users/igusaya/develop/tix_prototype/conf/evolutions/default,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/evolutions/default)
-	(/Users/igusaya/develop/tix_prototype/conf/evolutions/default/1.sql,/Users/igusaya/develop/tix_prototype/target/scala-2.11/classes/evolutions/default/1.sql)
-Total time: 2 s, completed 2016/07/18 22:02:10
+Total time: 8 s, completed 2016/07/19 2:05:46
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -10501,4 +10220,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 38338@igusayuusuke-no-MacBook-Pro.local logs at Mon Jul 18 22:03:06 JST 2016, goodbye.
+Closing the 40095@igusayuusuke-no-MacBook-Pro.local logs at Tue Jul 19 02:08:08 JST 2016, goodbye.
